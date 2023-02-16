@@ -14,15 +14,53 @@
     margin: 32px;
     color: #fff;
     flex-wrap: wrap;
+
 }
+.add{
+    font-size: 20px;
+    padding: 8px;
+    border-color: none;
+    border-style: solid;
+}
+.limpar{
+    font-size: 20px;
+    padding: 8px;
+    border-color: none;
+    border-style: solid;
+}
+
 
 .aluno{
     height: 200px;
     width:200px;
-    background-color: plum;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
 }
 
 .aluno__title{
     text-align: center;
     padding: 10px;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+.nota{
+    height: 200px;
+    width:200px;
+    flex-wrap: wrap;
+}
+
+.nota__title{
+    text-align: center;
+    padding: 10px;
+    font-size:72px;
+    
+}
+
+.vermelho{
+    background-color: tomato;
+}
+.verde{
+    background-color: green;
 }
